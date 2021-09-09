@@ -4126,11 +4126,14 @@ subscribe() {
 # 主菜单
 menu() {
 	cd "$HOME" || exit
+	echoContent red "\n===============白嫖工具君=======白嫖工具君=================="
+	echoContent red "\n=====本工具仅供学习测试使用切勿用于商业或者非法用途==============="
+	echoContent red "\n====================如有违反与作者无关===================="
 	echoContent red "\n=============================================================="
 	echoContent green "作者：抖音：白嫖工具君"
 	echoContent green "当前版本：v2.5.33"
 	echoContent green "Github：https://github.com/nihaowohao/v2ray-agent"
-	echoContent green "描述：八合一共存脚本\c"
+	echoContent green "描述：最强八合一共存版\c"
 	showInstallStatus
 	echoContent red "\n=============================================================="
 	if [[ -n "${coreInstallType}" ]]; then
